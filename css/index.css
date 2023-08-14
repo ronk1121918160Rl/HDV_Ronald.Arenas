@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #FFF8F0;
+}
+
+.name {
+    width: 100%;
+    height: 300px;
+    background: #74c946;
+    transform: skewY(-5deg);
+}
+
+.name .contenido{
+    width: 20%;
+    height: 50%;
+    position: absolute;
+    left: 25%;
+}
+
+.name .contenido .P1{
+    color:black;
+    font-family: 'Baloo Tamma 2', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    transform: skewY(5deg);
+    margin-bottom: 0;
+}
+
+.name .contenido .P2{
+    color:black;
+    font-family: 'Baloo Tamma 2', sans-serif;
+    font-size: 100%;
+    transform: skewY(5deg);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.name .contenido .detalleInfo{
+    color: rgb(82, 41, 165);
+    font-weight: normal;
+    font-style: italic;
+    font-size: medium;
+    font-family: 'Baloo Tamma 2', sans-serif;
+    text-align: left;
+    transform: skewY(5deg);
+    margin-top: 0%;
+}
+
+.name .img{
+    position: absolute;
+    top: 18%;
+    right: 5%;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    transform: skewY(5deg);
+    overflow: hidden;
+}
+
+
+.name .img img{
+    width: 190px;
+    height: 240px;
+}
+
+.informacion{
+    width: 80%;
+    height: auto;
+    background: #83de6a;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+.informacion .cuadro{
+    background-color: rgb(9, 7, 6);
+    display: inline-block;
+    height: auto;
+    padding: 5px;
+    border-radius: 20px;
+    width: 20%;
+    margin: 5% auto;
+    border: 1px solid black;
+}
+
+.informacion .tituloCuadro{
+    color: black;
+    font-family: 'Baloo Tamma 2', sans-serif;
+    font-size: xx-large;
+    text-align: center ;
+    font-weight: bolder;
+    border-bottom: 2px black solid;
+    margin: 1px;
+}
+
+.informacion .cuadro .textCuadro{
+    color: white;
+    font-size: medium;
+    font-family: 'Baloo Tamma 2', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.informacion .nombreInfo{
+    color: black;
+    font-family: 'Baloo Tamma 2', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    display: inline;
+    margin-right: 20px;
+}
+
+.informacion .descripcionInfo{
+    color: black;
+    font-family: 'Baloo Tamma 2', sans-serif;
+    font-weight: normal;
+    font-size: larger;
+    display: inline;
+}
+
+.informacion .subrayado{
+    color: rgb(19, 10, 6);
+    font-family: 'Baloo Tamma 2', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    display: inline;
+    text-decoration: underline;
+    font-style: italic;
+}
+.informacion .detalleInfo{
+    color: rgb(82, 41, 165);
+    font-weight: normal;
+    font-style: italic;
+    font-size: small;
+    font-family: 'Baloo Tamma 2', sans-serif;
+    text-align: center;
+}
+
+.informacion .funciones{
+    color: rgb(21, 54, 139);
+    font-family: 'Baloo Tamma 2', sans-serif;
+    font-weight: normal;
+    font-size: larger;
+    display: inline;
+    text-align: center;
+}
+
+.informacion span{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    background: blue;
+    color: white;
+    font-family: 'Baloo Tamma 2', sans-serif;
+    border-radius: 5px;
+}
+
